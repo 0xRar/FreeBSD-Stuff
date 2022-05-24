@@ -9,6 +9,19 @@ which is a Unix-Like OS.
 ## Post Installation (FreeBSD 13.1):
 Stuff to do after installing FreeBSD
 
+> **before doing anything make sure you use the `su` command to
+emulate the root user, otherwise you might face some problems.**
+
+### Updates
+1. Install updates and patches for the running branch of FreeBSD
+```
+freebsd-update fetch install
+```
+
+2. Update the FreeBSD Packages Repository
+```
+pkg update
+```
 
 ### VirtualBox Graphics & Audio Drivers:
 In case you installed FreeBSD as a virtual machine using VirualBox,
