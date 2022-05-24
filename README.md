@@ -12,5 +12,5 @@ Stuff to do after installing FreeBSD
 
 ### VirtualBox Graphics & Audio Drivers:
 In case you installed FreeBSD as a virtual machine using VirualBox,
-virtalbox comes with graphics and audio drivers which FreeBSD may have
+VirualBox comes with graphics and audio drivers which FreeBSD may have
 a problem identifying.
