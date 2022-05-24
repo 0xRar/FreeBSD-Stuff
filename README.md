@@ -8,6 +8,8 @@ which is a Unix-Like OS.
 ## Post Installation (FreeBSD 13.1)
 Stuff to do after installing FreeBSD
 
+<br>
+
 ### VirtualBox Graphics & Audio Drivers:
 In case you installed FreeBSD as a virtual machine using VirualBox,
 virtalbox comes with graphics and audio drivers which FreeBSD may have
