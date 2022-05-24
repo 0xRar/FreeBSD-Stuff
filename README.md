@@ -5,7 +5,7 @@ This Repository is created as a reminder for post installation of the Operating 
 which is a Unix-Like OS.
 
 
-## Post Installation (FreeBSD 13.1)
+## Post Installation (FreeBSD 13.1):
 Stuff to do after installing FreeBSD
 
 <br>
