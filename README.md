@@ -27,3 +27,10 @@ pkg update
 In case you installed FreeBSD as a virtual machine using VirualBox,
 VirualBox comes with graphics and audio drivers which FreeBSD may have
 a problem identifying.
+
+therefore we need to install and configure the virtualbox-additions package
+
+**Installation:**
+```
+pkg install emulators/virtualbox-ose-additions
+```
