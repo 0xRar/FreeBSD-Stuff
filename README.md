@@ -6,7 +6,7 @@ This Repository is created as a reminder for post installation of the Operating 
 which is a Unix-Like OS.
 
 
-## Post Installation (FreeBSD 13.1):
+## Post Installation (FreeBSD 13.1)
 Stuff to do after installing FreeBSD
 
 > **before doing anything make sure you use the `su` command to
@@ -23,7 +23,7 @@ freebsd-update fetch install
 pkg update
 ```
 
-## VirtualBox Graphics & Audio Drivers:
+## VirtualBox Graphics & Audio Drivers
 In case you installed FreeBSD as a virtual machine using VirualBox,
 VirualBox comes with graphics and audio drivers which FreeBSD may have
 a problem identifying.
@@ -47,4 +47,19 @@ ee /etc/rc.conf
 ```
 vboxguest_enable="YES"
 vboxservice_enable="YES"
+```
+
+## FreeBSD - Desktop
+As an example we will install and configure the `mate desktop` & `slim` but feel free to pick a desktop you want
+
+### Installing the Required Packages:
+```
+pkg install xorg mate-desktop mate slim
+```
+
+### Configuration:
+We will need to edit the `/etc/rc.conf` and enable dbus & slim etc.. add the following in the end of the file
+```
+dbus_enable="YES"
+slim_enable="YES"
 ```
