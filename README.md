@@ -13,12 +13,12 @@ Stuff to do after installing FreeBSD
 emulate the root user, otherwise you may face some problems.**
 
 ### Updates:
-1. Install updates and patches for the running branch of FreeBSD
+1. Install updates and patches for the running branch of FreeBSD:
 ```
 freebsd-update fetch install
 ```
 
-2. Update the FreeBSD Packages Repository
+2. Update the FreeBSD Packages Repository:
 ```
 pkg update
 ```
@@ -28,10 +28,10 @@ In case you installed FreeBSD as a virtual machine using VirualBox,
 VirualBox comes with graphics and audio drivers which FreeBSD may have
 a problem identifying.
 
-therefore we need to install and configure the virtualbox-additions package
+therefore we need to install and configure the emulators/virtualbox-ose-additions package
 
 ### Installation:
-You need to install the `emulators/virtualbox-ose-additions` package using the `pkg` installer
+You need to install the `emulators/virtualbox-ose-additions` package using the `pkg` installer:
 ```
 pkg install emulators/virtualbox-ose-additions
 ```
