@@ -58,8 +58,26 @@ pkg install xorg mate-desktop mate slim
 ```
 
 ### Configuration:
-We will need to edit the `/etc/rc.conf` and enable dbus & slim etc.. add the following in the end of the file
+We will need to edit the `/etc/rc.conf` and enable dbus & slim etc..
+
+1. Edit `/etc/rc.conf`:
+```
+ee /etc/rc.conf
+```
+2. Add the following in the end of the file
 ```
 dbus_enable="YES"
 slim_enable="YES"
+```
+
+also in the slim configuration file there is a commented `default_user` which we need to uncomment and 
+set it up to our username, location: `/usr/local/etc/slim.conf`
+1. Edit `/usr/local/etc/slim.conf`:
+```
+ee /usr/local/etc/slim.conf
+```
+2. Ucomment `default_user` (remove the # before it)
+the end result should look like this:
+```
+default_user  username
 ```
