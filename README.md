@@ -85,10 +85,10 @@ default_user  username
 Now the final step is editing the `.xinitrc` for both user & root
 
 user: navigate to `/home/username` by writing `cd /home/username`, 
-edit `.xinitrc` and write the following:
+edit `.xinitrc` and add the following:
 ```
 exec mate-session
 ```
 
 root: navigate to `/root` by writing `cd /root`, 
-edit `.xinitrc` and write the same thing as the user, and reboot
+edit `.xinitrc` and add the same thing as the user, and reboot
