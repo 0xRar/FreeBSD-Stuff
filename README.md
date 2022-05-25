@@ -31,6 +31,20 @@ a problem identifying.
 therefore we need to install and configure the virtualbox-additions package
 
 ### Installation:
+You need to install the `emulators/virtualbox-ose-additions` package using the `pkg` installer
 ```
 pkg install emulators/virtualbox-ose-additions
+```
+
+### Configuration:
+To configure the vbox additions you will need to edit the file `/etc/rc.conf` using any text editor you have installed such as `ee` & `vi`
+
+1. Edit `/etc/rc.conf`:
+```
+ee /etc/rc.conf
+```
+2. Add the following at the end of the `/etc/rc.conf` file:
+```
+vboxguest_enable="YES"
+vboxservice_enable="YES"
 ```
