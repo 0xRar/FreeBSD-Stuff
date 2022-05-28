@@ -92,3 +92,6 @@ exec mate-session
 
 root: navigate to `/root` by writing `cd /root`, 
 edit `.xinitrc` and add the same thing as the user, and reboot
+
+
+![image](https://user-images.githubusercontent.com/33517160/170816213-72e4984e-c18f-4b87-b058-6c165857e4bc.png)
